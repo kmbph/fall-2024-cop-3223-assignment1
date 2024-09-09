@@ -3,11 +3,11 @@
 // Author: Kimberly Pham
 // Date: 9/7/24
 // Class: COP 3223, Professor Parra
-// Purpose: This program helps us practice fracturing
+// Purpose: This program is to practice fracturing
 // functions in C.
-// Input: 
+// Input: coordinates of point 1 and point 2
 //
-// Output: A brief message
+// Output: distance, area, perimeter, height, width
 // //********************************************************
 
 
