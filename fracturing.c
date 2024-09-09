@@ -59,11 +59,11 @@ double calculateArea() {
     printf("Enter your second coordinate (x2, y2): \n");
     scanf("%lf %lf", &x2, &y2);
 
-    double length = fabs(x2 - x1);
-    double height = fabs(y2 - y1);
+    double distance = calculateDistance();
+    double radius = distance / 2;
     double area; 
 
-    area = length * height; 
+    area = 2 * PI * radius; 
 
     printf("Point #1 entered: x1 = %lf; y1 = %lf", x1, y1);
     printf("Point #2 entered: x2 = %lf; y2 = %lf", x2, y2);
